@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="description" content="The Voice of Us - Stories of Jewish resilience and hope." />
+  <meta name="robots" content="index, follow" />
+  <title>The Voice of Us</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="video-header">
+    <div class="fullscreen-video-wrap">
+      <iframe
+        width="560"
+        height="315"
+        loading="lazy"
+        src="https://www.youtube-nocookie.com/embed/6s490ppkQwo?autoplay=1&mute=1&controls=0&loop=1&playlist=6s490ppkQwo"
+        title="YouTube video player"
+        frameborder="0"
+        allowfullscreen
+        sandbox="allow-scripts allow-same-origin"
+        referrerpolicy="no-referrer">
+      </iframe>
+    </div>
+    <div class="header-overlay"></div>
+    <div class="header-content">
+      <h1>The Voice of Us</h1>
+      <p>Stories of resilience and hope</p>
+      <a href="#videos" class="cta-button">Watch Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About the Project</h2>
+      <p>Directed by Hillel Kornwasser, this project showcases powerful stories of the Jewish people.</p>
+    </section>
+
+    <section id="videos">
+      <h2>Videos</h2>
+      <div class="video-grid">
+        <iframe
+          width="560"
+          height="315"
+          loading="lazy"
+          src="https://www.youtube-nocookie.com/embed/6s490ppkQwo"
+          title="YouTube video player"
+          frameborder="0"
+          allowfullscreen
+          sandbox="allow-scripts allow-same-origin"
+          referrerpolicy="no-referrer">
+        </iframe>
+      </div>
+    </section>
+
+    <section id="short-films">
+      <h2>Short Films</h2>
+      <p>Coming soon.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="eventForm" action="https://formspree.io/f/mwkgnljp" method="POST" autocomplete="off" novalidate>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 The Voice of Us. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
